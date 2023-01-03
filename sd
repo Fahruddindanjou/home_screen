@@ -1,0 +1,30 @@
+
+                        <div class="card card-md border-0 shadow-sm rounded-3">
+                            <div class="card-body">
+                                <div class="text-center mb-2">
+                                    <a href="." class="navbar-brand navbar-brand-autodark"><img src="https://perumdajepara.co.id/public/logo/logo_perumda_jepara.png" alt="" height="60"></a>
+                                </div>
+                                <h2 class="h2 text-center mb-4">Login to your account</h2>
+                                <form method="POST" action="http://perumdajepara.co.id/login">
+                                <!--<form method="POST" action="https://leadership.perumdajepara.co.id/dashboard.html">-->
+                                    <input type="hidden" name="_token" value="pKCtqcu97OSzauliGLi1rb5g4Gj2cY5K1CO7TRxG">                                    <div class="mb-3">
+                                        <label class="form-label">Email address</label>
+                                        <input type="email" class="form-control " placeholder="your@email.com" name="email" value="" required="" autocomplete="email" autofocus="">
+                                                                            </div>
+                                    <div class="mb-2">
+                                        <label class="form-label">Password</label>
+                                        <input type="password" class="form-control" placeholder="********" name="password" required="" autocomplete="current-password">
+                                                                            </div>
+                                    <div class="form-footer">
+                                        <button type="submit" class="btn btn-primary w-100">Sign in</button>
+                                    </div>
+                                </form>
+                            </div>
+                            <div class="hr-text">or</div>
+                            <div class="card-body">
+                                <div class="text-center">
+                                    <a href="http://perumdajepara.co.id">← Go to Perumda Jepara</a>
+                                </div>
+                            </div>
+                        </div>
+                    
